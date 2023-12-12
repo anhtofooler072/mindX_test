@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", sans-serif;
+  background-color: #f1f1f1;
+}
+
+.canvas {
+  background-color: #e6eaf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 1200px;
+  margin: auto;
+  padding: 173px 194px 173px 193px;
+}
+
+.contentContainer {
+  background-color: #ffffff;
+  padding: 100px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame26 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 70px;
+}
+/* finding bar */
+.findbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.findbar .findingBox {
+  font-family: "Poppins";
+  display: flex;
+  width: 327px;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--bfc-8-e-6, #bfc8e5);
+}
+
+.findbar .navbar {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.findbar .navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.findbar .navbar ul li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6e707e;
+  cursor: pointer;
+  padding: 16px;
+}
+
+#navbtnChecked {
+  color: #ffffff;
+  border-radius: 8px;
+  background: #849fff;
+}
+
+/* card */
+.usercardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.userCard {
+  display: flex;
+  width: 327px;
+  height: 208px;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+  background: #fbfcff;
+}
+
+#hoverup {
+  border-radius: 16px;
+  border: 1px solid #bfc8e5;
+  background: #fbfcff;
+  box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.7);
+}
+
+.userCard img {
+  width: 97px;
+  height: 97px;
+  flex-shrink: 0;
+  object-fit: cover;
+  image-rendering: auto;
+  border-radius: 97px;
+}
+
+.userCard .nameinfo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.userCard .nameinfo h3 {
+  color: var(--151-b-32, #151b32);
+  font-family: Merriweather;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.userCard .nameinfo span {
+  color: var(--151-b-32, #151b32);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.userCard .userinfo .majortag {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.userCard .userinfo .majortag span {
+  color: #516fd4;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid var(--bfc-8-e-6, #bfc8e5);
+  background: #fff;
+  padding: 2px 8px;
+}
